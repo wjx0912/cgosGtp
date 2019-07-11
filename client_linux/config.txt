@@ -1,0 +1,15 @@
+#--------------------------------------------------------
+# config file
+# Bot name must be within 18 characters.
+# Port is 6809 in 9x9, 6819 in 19x19.
+# -------------------------------------------------
+%section server
+    server yss-aya.com
+    port 6819
+
+%section player
+     name      youbot_name
+     password  youbot_password
+     invoke    /home/user/your_engine   --mode gtp   --weight    /home/user/weight33.txt
+     priority  100
+#---------------------------------------------------------
